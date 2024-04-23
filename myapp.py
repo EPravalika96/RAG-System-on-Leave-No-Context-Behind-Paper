@@ -46,7 +46,7 @@ chat_template = ChatPromptTemplate.from_messages([
     SystemMessage(content="""You are a Helpful AI Bot. 
     You take the question related to Context from user and answer if you have the specific information related to the question."""),
     # Human Message Prompt Template
-    HumanMessagePromptTemplate.from_template("""Aswer the question based on the given context.
+    HumanMessagePromptTemplate.from_template("""Answer the question based on the given context.
     Context:
     {context}
     
